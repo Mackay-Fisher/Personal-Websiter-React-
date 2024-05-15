@@ -1,0 +1,59 @@
+.footer{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    padding: 2% 2%;
+    color: aliceblue;
+    
+}
+
+.footericon{
+    width: 100px;
+    height: 100px;
+}
+
+.iconhold{
+    width: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+    color: white;
+    margin-bottom: 1%;
+    display: flex;
+}
+
+.iconhold>p{
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 2.8rem;
+    margin-left: 10px;
+}
+
+.flexbottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tagline{
+    font-weight: 400;
+    font-size: 1.7rem;
+    width: 30%;
+}
+
+.socs{
+    font-weight: 600;
+    font-size: 1.7rem;
+    width: 50%;
+}
+
+.ss{
+    display: flex;
+    justify-content: space-around;
+}
+
+.misalenous{
+    width: 20%;
+    font-weight: 600;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+}
+
+

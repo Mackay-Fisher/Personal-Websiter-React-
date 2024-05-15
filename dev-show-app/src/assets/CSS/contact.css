@@ -1,0 +1,501 @@
+.contact{
+    position: relative;
+}
+
+.aboutmetext.abc{
+  position: relative;
+  top: 70px;
+  left: 25%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 80px;
+
+}
+
+.form{
+    position: relative;
+    width: 50%;
+    left: 25%;
+    min-height: 80vh;
+    background-color: white;
+    padding: 40px 40px;
+    border-radius: 15px;
+    display: block;
+    margin-bottom: 60px;
+}
+
+.enter >p{
+    color: #000;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: block;
+    text-align: left;
+}
+
+.inp{
+    font-family: 'Source Sans 3', sans-serif;
+    color: #333;
+    padding: 2rem;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    font-size: 1.6rem;
+    letter-spacing: 0;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+textarea {
+    resize: none;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.6rem;
+}
+
+.enter{
+    margin-bottom: 50px;
+}
+
+.but{
+    font-family: inherit;
+    font-size: 20px;
+    background: royalblue;
+    color: white;
+    padding: 1em 4em;
+    padding-left: 3.2em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  
+  button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+  }
+  
+  button:hover svg {
+    transform: translateX(1.6em) rotate(45deg) scale(1.3);
+  }
+  
+  button:hover span {
+    transform: translateX(7em);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
+    }
+  }
+  
+  input[type='text']:hover {
+    background-color: #ebebeb;
+  }
+  
+  input[type='text']:focus {
+    outline: none;
+    background-color: #ebebeb;
+    border: transparent;
+  }
+
+  textarea:focus {
+    outline: none;
+    background-color: #ebebeb;
+    border: transparent;
+  }
+
+  textarea:hover {
+    outline: none;
+    background-color: #ebebeb;
+    border: transparent;
+  }
+
+  footer {
+    display: block;
+}
+
+.main-container {
+    max-width: 120rem;
+    margin: auto;
+    width: 92%;
+}
+
+.main-footer__upper {
+    display: flex;
+    justify-content: space-between;
+    padding: 8rem 0;
+}
+
+.main-footer {
+    background: #000;
+    color: #fff;
+}
+
+.heading-sm {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.foot{
+    background-color: #000;
+    height: 30vh;
+    position: relative;
+    top: 7vh;
+    overflow: hidden;
+    width: 100%;
+}
+
+.footflex{
+    position: relative;
+    left: 7.5%;
+    padding: 40px;
+    width: 100%;
+    background-color: black;
+    height: 30vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.mainhold{
+    font-family: 'Source Sans 3', sans-serif;
+    width: 60%;
+    height: 23vh;
+    
+}
+
+.mainhold > h2{
+    color: white;
+    font-size: 4.4rem;
+    padding: 0px 20px;
+}
+
+.mainhold > p{
+    color: white;
+    font-size: 1.8rem;
+    position: relative;
+    top: -10%;
+    width: 70%;
+}
+
+.main_back {
+    position: absolute;
+    border-radius: 10px;
+    transform: rotate(90deg);
+    width: 11em;
+    height: 11em;
+    background: linear-gradient(270deg, #03a9f4, #cc39a4, #ffb5d2);
+    z-index: -2;
+    box-shadow: inset 0px 0px 180px 5px white;
+  }
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 14em;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+  }
+  
+  .card {
+    width: 60px;
+    height: 60px;
+    border-top-left-radius: 10px;
+    background: rgb(251, 251, 251);
+    transition: .4s ease-in-out, .2s background-color ease-in-out, .2s background-image ease-in-out;
+    background: rgba(255, 255, 255, 1);
+    backdrop-filter: blur(5px);
+    border: 1px solid transparent;
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card .instagram {
+    opacity: 0;
+    transition: .2s ease-in-out;
+    fill: #cc39a4;
+  }
+  
+  .card:nth-child(2) {
+    border-radius: 0px;
+  }
+  
+  .card:nth-child(2) .twitter {
+    opacity: 0;
+    transition: .2s ease-in-out;
+    fill: #03A9F4;
+  }
+  
+  .card:nth-child(3) {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 0px;
+  }
+  
+  .card:nth-child(3) .dribble {
+    opacity: 0;
+    transition: .2s ease-in-out;
+    fill: #ffb5d2;
+  }
+  
+  .card:nth-child(4) {
+    border-radius: 0px;
+  }
+  
+  .card:nth-child(4) .codepen {
+    opacity: 0;
+    transition: .2s ease-in-out;
+    fill: black;
+  }
+  
+  .card:nth-child(5) {
+    border-radius: 0px;
+  }
+  
+  .card:nth-child(5) .uiverse {
+    position: absolute;
+    margin-left: 0.2em;
+    margin-top: 0.2em;
+    opacity: 0;
+    transition: .2s ease-in-out;
+  }
+  
+  .card:nth-child(6) {
+    border-radius: 0px;
+  }
+  
+  .card:nth-child(6) .discord {
+    opacity: 0;
+    transition: .2s ease-in-out;
+    fill: #8c9eff;
+  }
+  
+  .card:nth-child(7) {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 0px;
+  }
+  
+  .card:nth-child(7) .github {
+    opacity: 0;
+    transition: .2s ease-in-out;
+    fill: black;
+  }
+  
+  .card:nth-child(8) {
+    border-radius: 0px;
+  }
+  
+  .card:nth-child(8) .telegram {
+    opacity: 0;
+    transition: .2s ease-in-out;
+    fill: #29b6f6;
+  }
+  
+  .card:nth-child(9) {
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+  }
+  
+  .card:nth-child(9) .reddit {
+    opacity: 0;
+    transition: .2s ease-in-out;
+  }
+  
+  .main:hover {
+    width: 14em;
+    cursor: pointer;
+  }
+  
+  .main:hover .main_back {
+    opacity: 0;
+  }
+  
+  .main:hover .card {
+    margin: .2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 1);
+  }
+  
+  .main:hover .card:nth-child(5) {
+    border: transparent;
+  }
+  
+  .main:hover .text {
+    opacity: 0;
+    z-index: -3;
+  }
+  
+  .main:hover .instagram {
+    opacity: 1;
+  }
+  
+  .main:hover .twitter {
+    opacity: 1;
+  }
+  
+  .main:hover .dribble {
+    opacity: 1;
+  }
+  
+  .main:hover .codepen {
+    opacity: 1;
+  }
+  
+  .main:hover .uiverse {
+    opacity: 1;
+  }
+  
+  .main:hover .discord {
+    opacity: 1;
+  }
+  
+  .main:hover .github {
+    opacity: 1;
+  }
+  
+  .main:hover .telegram {
+    opacity: 1;
+  }
+  
+  .main:hover .reddit {
+    opacity: 1;
+  }
+  
+  .card:nth-child(1):hover {
+    background-color: #cc39a4;
+  }
+  
+  .card:nth-child(1):hover .instagram {
+    fill: white;
+  }
+  
+  .card:nth-child(2):hover {
+    background-color: #03A9F4;
+  }
+  
+  .card:nth-child(2):hover .twitter {
+    fill: white;
+  }
+  
+  .card:nth-child(3):hover {
+    background-color: #ffb5d2;
+  }
+  
+  .card:nth-child(3):hover .dribble {
+    fill: white;
+  }
+  
+  .card:nth-child(4):hover {
+    background-color: #1E1F26;
+  }
+  
+  .card:nth-child(4):hover .codepen {
+    fill: white;
+  }
+  
+  .card:nth-child(5):hover {
+    animation: backgroundIMG .1s;
+    animation-fill-mode: forwards;
+  }
+  
+  .card:nth-child(5):hover .uiverse #paint0_linear_501_142 stop {
+    stop-color: white;
+  }
+  
+  .card:nth-child(5):hover .uiverse #paint1_linear_501_142 stop {
+    stop-color: white;
+  }
+  
+  .card:nth-child(5):hover .uiverse #paint2_linear_501_142 stop {
+    stop-color: white;
+  }
+  
+  @keyframes backgroundIMG {
+    100% {
+      background-image: linear-gradient(#BF66FF,#6248FF,#00DDEB);
+    }
+  }
+  
+  .card:nth-child(6):hover {
+    background-color: #8c9eff;
+  }
+  
+  .card:nth-child(6):hover .discord {
+    fill: white;
+  }
+  
+  .card:nth-child(7):hover {
+    background-color: black;
+  }
+  
+  .card:nth-child(7):hover .github {
+    fill: white;
+  }
+  
+  .card:nth-child(8):hover {
+    background-color: #29b6f6;
+  }
+  
+  .card:nth-child(8):hover .telegram > path:nth-of-type(1) {
+    fill: white;
+  }
+  
+  .card:nth-child(8):hover .telegram > path:nth-of-type(2) {
+    fill: #29b6f6;
+  }
+  
+  .card:nth-child(8):hover .telegram > path:nth-of-type(3) {
+    fill: #29b6f6;
+  }
+  
+  .card:nth-child(9):hover {
+    background-color: rgb(255,69,0);
+  }
+  
+  .card:nth-child(9) .reddit > g circle {
+    fill: rgb(255,69,0);
+  }
+  
+  .card:nth-child(9) .reddit > g path {
+    fill: white;
+  }
+  
+  .text {
+    position: absolute;
+    font-size: 0.7em;
+    transition: .4s ease-in-out;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.33em;
+    z-index: 3;
+  }

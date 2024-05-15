@@ -1,0 +1,262 @@
+.under-nav{
+    position: absolute;
+    top: 80px;
+    height: calc(100vh - 60px);
+    background-color: white;
+    padding: 3%;
+}
+
+.website{
+    width: 100vw;
+    overflow: hidden;
+    min-width: 900px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(244, 243, 243);
+    border-radius: 60px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(221, 218, 218);
+  }
+
+.radiobar{
+    position: absolute;
+    margin-left: auto;
+    top: 0%;
+    min-width: 460px;
+    width: 460px;
+    left: calc(100% - 460px);
+    margin: auto;
+    background-color: transparent;
+    overflow: hidden;
+    opacity: 100%;
+}
+
+.backgrou{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.imagehide{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    display: flex;
+}
+
+.heroimage{
+    position: relative;
+    top: 6%;
+    width: 55%;
+    left: 45%;
+}
+
+.home{
+   height: 103vh;
+   background:  #EFECEB;
+   min-width: 900px;
+}
+
+.imagehold{
+    position: absolute;
+    top: 0;
+    height: 103vh; 
+    width: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    min-width: 900px;
+}
+
+.Hero{
+    min-width: calc(900px *.4);
+    position: absolute;
+    top: 25%;
+    font-size: 2rem;
+    font-family: inherit;
+    height: 30vh;
+    background-color: aliceblue;
+    text-align: center;
+    width: 40%;
+    left: 30%;
+}
+
+.herohello{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #000000;
+    font-weight: 800;
+    min-width: 900px;
+}
+
+.homeherocontent{
+    position: absolute;
+    top: 47vh;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90rem;
+    width: 92%;
+}
+
+.herointro{
+    position: relative;
+    font-family: 'Source Sans 3', sans-serif;
+    top: 52vh;
+    left: 30%;
+    color: #333;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 40%;
+    line-height: 1.6;
+    font-weight: 400;
+    min-width: calc(900px*.4);
+}
+
+.line{
+    margin-left:48px;
+    width: 4px;
+    height: 400px;
+    background-color: #000000;
+}
+.socials{
+    position: absolute;
+    top: 44vh;
+    left: -.3%;
+    height: 52%;
+    width: 100px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.clicker{
+    position: absolute;
+}
+
+.clickme{
+    position: relative;
+background-color: transparent;
+color: #000000;
+font-weight: 800;
+font-size: 2rem;
+line-height: .2rem;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.icon{
+    position: relative;
+    margin-bottom: 10px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.icon.c{
+    width: 45px;
+    margin-bottom: 0px;
+}
+
+.iconsh{
+    padding: 13px 0px 2px 20px;
+}
+
+
+.icon.a{
+    margin-bottom: 3px;
+}
+
+.icon-scroll,
+.icon-scroll:before {
+    position: absolute;
+    left: calc(50% - 15px)
+}
+.icon-scroll {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    margin-left: 0px;
+    bottom: 10px;
+    margin-top: -35px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    left: calc(50% - 15px);
+}
+@media (max-width: 767px) {
+    .icon-scroll {
+        position: relative
+    }
+}
+.icon-scroll:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: rgb(0, 0, 0);
+    margin-left: 11px;
+    top: 8px;
+    border-radius: 4px;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: scroll
+}
+@keyframes scroll {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(26px)
+    }
+}
+
+/* IGNORE EVERYTHING BELOW */
+
+body{
+  background: black;
+}
+
+.backimage{
+    height: 140vh;
+    left: -42px;
+    top:-20vh;
+    position: absolute;
+}
+
+.logo{
+    margin-top: 15px;
+}
+
+.logobox{
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+
+.logobox >p{
+    margin-top: 25px;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 0.25rem;
+}

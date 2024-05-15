@@ -1,0 +1,43 @@
+.tradio-inputs {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 0.25rem;
+    width: 70%;
+    left: 15%;
+    font-size: 3.5rem;
+    font-family: 'Source Sans 3', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+  }
+
+  .tradio-inputs .tradio {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+  
+  .tradio-inputs .tradio input {
+    display: none;
+  }
+  
+  .tradio-inputs .tradio .tname {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: none;
+    padding: .5rem 0;
+    transition: all .15s ease-in-out;
+  }
+  
+  .tradio-inputs .tradio input:checked + .tname {
+    background-color: rgb(224, 215, 215);
+    font-weight: 600;
+  }

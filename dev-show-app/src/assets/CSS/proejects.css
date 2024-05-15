@@ -1,0 +1,479 @@
+.pro{
+    position: relative;
+    width: 100%;
+    background: #fff;
+    padding: 80px 0px 80px 0px;
+}
+
+.workswitch{
+    margin-top: 0px;
+    position: relative;
+    top: -20px;
+    font-family: 'Source Sans 3', sans-serif;
+        color: #000000;
+        padding: 1rem 3.8rem;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        display: inline-block;
+        font-weight: 700;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.workexp{
+    position: relative;
+    
+}
+
+.project1{
+    position: relative;
+
+    left: 0%;
+    padding: 0px 140px 0px 140px;
+    background-color: transparent;
+    min-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectpan{
+    position: relative;
+    padding: 60px 40px;
+    height: 75vh;
+    width: 80%;
+    left: 7%;
+    background-color: transparent;
+    margin-bottom: 30px;
+    background-color: #eae5e5;
+}
+
+.project1.b{
+    margin-bottom: 0px;
+}
+
+.project1.z{
+    position: relative;
+    height: 500px;
+}
+
+.project1.c{
+    height: 500px;
+}
+
+.vertical-image{
+    width: 45%;
+    height: 40vh;
+}
+
+.vertical-image.a{
+    width: 100%;
+    height: 340px;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.imagel{
+    position: relative;
+}
+
+.imagel.a{
+    position: relative;
+}
+
+.im{
+    position: relative;
+    scale: .6;
+}
+
+.p1-image{
+    position: relative;
+    top: 0%;
+    left: 53.5%;
+    height: 235px;
+    width: 330px;
+    background-image: url('../images/ML.png');
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: solid;
+}
+
+.p1-image.c{
+    position: relative;
+    top: -35%;
+    background-image: url('../images/carving.gif');
+    left: 60%;
+    width: 360px;
+    scale: .7;
+    border: none;
+}
+
+
+
+
+.p1-image.b{
+    background-image: url('../images/Background-Checks1.gif');
+    border: none;
+}
+
+.project1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.pimage{
+    margin: 40px;
+    width: 500px;
+    background-color: #000000;
+    min-width: 400px;
+    height: 60vh;
+    margin-bottom: 80px;
+}
+
+.pimage.c{
+    margin: 40px;
+    background-color: #ffffff;
+    height: 340px;
+}
+
+.pimaged{
+    width: 600px;
+    background-color: transparent;
+    height: 350px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.pimageb{
+    margin: 40px;
+    width: 500px;
+    background-color: #ffffff;
+    height: 400px; 
+}
+
+.pimageb.phone{
+    width: 550px;
+    height: 250px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+.pimageb.phonea{
+    position: relative;
+    top:-100px;
+    width: 550px;
+    height: 160px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+.pimageb.pan{
+    position: absolute;
+    width: 80%;
+    background-color: #ffffff;
+    left: 10%;
+    margin-top: 100px;
+    
+}
+
+.text-hold{
+    flex: 1 1 auto;
+    text-align: left;
+    background-color: transparent;
+    min-width:500px;
+    width: 40%;
+}
+
+.text-hold.help{
+    position: relative;
+    top: 20px;
+}
+
+.text-hold.c{
+    top: 25%;
+}
+
+.text-hold.phone{
+    width: 40%;
+    min-width: 450px;
+    height: fit-content;
+}
+
+.text-hold.pan{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 40%;
+    text-align: left;
+    background-color: transparent
+}
+
+.project-title{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-top: 20px;
+    line-height: 2.5rem;
+}
+
+.project-divider{
+    position: relative;
+    width: 40%;
+    height: 3px;
+    background-color: #000000;
+    left: 30%;
+    top: -12px;
+    margin-bottom: 3px;
+}
+
+.project-divider.a{
+    position: relative;
+    top: -12px;
+    width: 20%;
+    height: 2px;
+    background-color: #000000;
+    left: 40%;
+    margin-bottom: 10px;
+}
+
+.description{
+    position: relative;
+}
+
+.projxplaniation{
+    top: -20px;
+    position: relative;
+    text-align: left;
+    align-content: center;
+    justify-content:center;
+}
+
+.projxplaniation > p{
+    font-weight: 500;
+    font-size: 1.7rem;
+    font-family: 'Source Sans 3', sans-serif;
+    line-height: 1.4rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.type{
+    position: relative;
+    top: -10px;
+    margin-bottom: 32px;
+    font-size: 1.6rem;
+}
+
+.card{
+    text-align: left;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cardimage{
+    position: relative;
+    left: calc(50% - 150px);
+    height: 300px;
+    width: 300px;
+    background-color: #000000;
+    border-radius:  100%;
+}
+
+.cardheader{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+    font-size: 2.6rem;
+    line-height: 0px;
+    color: #000000;
+    margin-bottom: 80px;
+}
+
+.cardicon{
+    position: relative;
+    left: calc(50% - 30px);
+    width: 60px;
+    height: 60px;
+    background-color: #000000;
+    margin-bottom: 60px;
+}
+
+.sliderhold{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    min-width: 800px;
+}
+
+
+.phonehold{
+    position: relative;
+    top: -60px;
+    scale: .35;
+    height: 250px;
+    margin: 0px;
+}
+
+.computer{
+    position: relative;
+    top: 100px;
+    margin: 0px;
+    scale: 1.4;
+    width: 400px;
+    height: 250px;
+}
+
+.computera{
+    position: relative;
+    margin: 0px;
+    scale: 1.4;
+    width: 400px;
+    height: 200px;
+}
+
+.flexhold{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexholda{
+    position: relative;
+    top: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.serverhold{
+    position: relative;
+    scale: .6;
+    left: 80px;
+    top: -60px;
+}
+
+.server{
+    position: relative;
+    top: 10%;
+    margin: 0px;
+    width: 100%;
+    scale: 1.45;
+    left: -25%;
+
+}
+
+.mail{
+    position: relative;
+    top: -2vh;
+    scale: .75;
+    left: 17%;
+}
+
+.progress-loader {
+    top: calc(100% - 10px);
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background: rgb(179, 170, 170);
+    height: 10px;
+    border-radius: 7px;
+  }
+  
+  .progress {
+    width: 1px;
+    height: 10px;
+    border-radius: 7px;
+    background: rgb(0, 0, 0);
+    transition: 0.5s;
+    animation: loading_44 20s cubic-bezier(.4,1.01,1,1) infinite;
+  }
+  
+  @keyframes loading_44 {
+    0% {
+      width: 0%;
+    }
+  
+    50% {
+      width: 100%;
+    }
+  
+    100% {
+      width: 0%;
+    }
+  }
+
+  .inporgress{
+    top: 0%;
+    position: relative;
+    width: 80%;
+    left: 10%;
+    height: 20vh;
+    background-color: #902e2e;
+  }
+
+  .description{
+    text-align: center;
+  }
+
+  .projtoggel{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+
+  }
+
+  .tog{
+    position: relative;
+    top: -20px;
+  }
+
+  .sel{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #000000;
+    font-weight: 800;
+  }
+
+  .sel.a{
+    background-color: transparent;
+    font-size: 3.8rem;
+    border: none;
+  }
+
+  .sel.a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .sel.a.b{
+    text-decoration: underline;
+  }
+
+.Projectbullet> li::before{
+        content: ''; /* empty content */
+        display: inline-block;
+        width: 6px; /* bullet width */
+        height: 6px; /* bullet height */
+        border: 1px solid black; /* bullet outline */
+        border-radius: 50%; /* make it circular */
+        margin-right: 6px; /* space between bullet and text */
+        vertical-align: middle; /* align with the text */
+        background-color: #000000;
+        
+    }
+
+.Projectbullet > li{
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #000000;
+    font-style: none;
+}
